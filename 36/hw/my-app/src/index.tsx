@@ -231,10 +231,10 @@ const filterByTitleAndPlot = (
 
 type IObj = Partial<IFilm>;
 
-const filterByParams = (
-  films: Array<IFilm>,
-  key: string,
-  value: string | number
-): Array<IObj> => {
-  return films.filter((film) => film[key] === value);
-};
+// const filterByParams = (
+//   films: Array<IFilm>,
+//   key: string,
+//   value: string | number
+// ): Array<IObj> => {
+//   return films.filter((film) => film[key] === value);
+// };

@@ -1,0 +1,44 @@
+
+.MainPage {
+  background: rgb(235, 236, 244);
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 0.938rem;
+  margin: auto;
+  position: relative;
+  z-index: 2;
+}
+section {
+  padding: 5rem 0;
+}
+
+.first-screen {
+}
+
+.first-screen__title {
+  max-width: 10rem;
+  text-align: left;
+  margin-bottom: 3rem;
+}
+
+.first-screen__title span {
+  color: rgb(74, 132, 231);
+}
+.first-screen__subtitle {
+  max-width: 20rem;
+  text-align: left;
+  margin-bottom: 2rem;
+}
+.first-screen__btn {
+  width: 8rem;
+  padding: 0.5rem 0;
+  background-color: rgb(80, 144, 255);
+  border-radius: 1em;
+  cursor: pointer;
+}
+
+.first-screen__btn a {
+  color: white;
+}
